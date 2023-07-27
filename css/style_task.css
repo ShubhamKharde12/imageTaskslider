@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: peru;
+    color: aqua;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.head img{
+    border-radius: 50px;
+}
+
+nav{
+    width: 40%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li:hover{
+    color: black;
+}
+
+.inp{
+    background-image: url('https://c.saavncdn.com/artists/Ajay_Atul_003_20230228105414_500x500.jpg');
+    color: aliceblue;
+    background-size: 100% 100%;
+    padding: 250px;
+}
+
+.blogs{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 200px;
+    
+}
+
+#ele1{
+    background-image: url('https://www.liveclefs.com/wp-content/uploads/2019/08/shankar-ehsaan-loy.jpg');
+    background-size: cover;
+    padding: 90px;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px green;
+    
+}
+
+#ele2{
+    background-image: url('https://images.hindustantimes.com/img/2022/11/29/1600x900/amit_1669708962386_1669708962544_1669708962544.PNG');
+    background-size: cover;
+    padding: 90px;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px green;
+    
+}
+
+#ele3{
+    background-image: url('https://files.prokerala.com/news/photos/imgs/1024/file-photo-singer-arijit-singh-file-photo-ians-402255.jpg');
+    background-size: cover;
+    padding: 90px;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px green;
+    
+}
+
+.btn{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 40%;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
